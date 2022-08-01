@@ -1,4 +1,68 @@
+.traffic-light { background: black;
+  display: table;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+
+
+
+.on {
+  opacity: 1;
+}
+
+
+
+
+.redcircle {
+  display: block;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  background: red;
+}
+.redcircleon {
+  display: block;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  background: red; 
+  box-shadow: 2px 2px 2px 1px rgba(248, 244, 244, 0.792);
+}
+.yellowcircle {
+display: block;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  background: yellow;
+}
+.yellowcircleon {
+  display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background: yellow;
+    box-shadow: 2px 2px 2px 1px rgba(248, 244, 244, 0.792);
+}
+.greencircle {
+  display: block;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background: green;
+  }
+
+  .greencircleon {
+    display: block;
+      height: 80px;
+      width: 80px;
+      border-radius: 100%;
+      background: green;
+      box-shadow:  2px 2px 2px 1px rgba(248, 244, 244, 0.792);
+    }
+
+  
 /* 
 
     You can write your own styles here...
